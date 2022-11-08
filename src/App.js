@@ -3,6 +3,7 @@ import './App.css';
 import Mensagem from "./Mensagem";
 import Header from "./Header";
 import Container from "./Container";
+//import GetSnapshotBeforeUpdate from "./GetSnapshotBeforeUpdate";
 
 function App() {
   return (
@@ -10,9 +11,8 @@ function App() {
       <Mensagem />
       <Header />
       <Container />
+
     </div>
   );
 }
-
 export default App;
-//giovanna teste
